@@ -16,7 +16,8 @@ body {
 @keyframes titles-text {
   0%   {color: #000;}
   50%  {color: #fff;}
-  100% {color: #000;}
+  75%  {color: #000;}
+  100% {color: #fff;}
 }
 
 @keyframes bild {
@@ -71,6 +72,7 @@ img {
 }
 
 #title {
+  color: #fff;
   z-index: 1;
   display: flex;
 
@@ -85,7 +87,7 @@ img {
   text-align: center;
 
   animation-name: titles-text;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-delay: 0s;
 
   /*
